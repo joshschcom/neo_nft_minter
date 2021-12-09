@@ -32,15 +32,15 @@ All credits go to https://github.com/viraja1
    Make a Python 3 virtual environment and activate it:
    
    On Windows: 
-   
+   ```
    $ python3 -m venv venv
    $ venv\Scripts\activate.bat
-   
+   ```
    On Linux / MacOS:
-   
+   ```
    $ python3 -m venv venv
    $ source venv/bin/activate
-
+   ```
 
 
 4) Compile the contracts
@@ -83,8 +83,6 @@ All credits go to https://github.com/viraja1
 8) Go back to the neo_nft_minter folder in a separate terminal tab to build the client app
    ```
    cd neo_nft_minter
-   ```
-  
    cd client
    npm install
    npm start 
