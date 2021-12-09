@@ -28,6 +28,20 @@ All credits go to https://github.com/viraja1
    ```
    
 3) Ensure that python 3.7 or above is installed
+ 
+   Make a Python 3 virtual environment and activate it:
+   
+   On Windows: 
+   
+   $ python3 -m venv venv
+   $ venv\Scripts\activate.bat
+   
+   On Linux / MacOS:
+   
+   $ python3 -m venv venv
+   $ source venv/bin/activate
+
+
 
 4) Compile the contracts
 
