@@ -2,6 +2,8 @@
 Neo NFT Minter allows you to easily mint an NFT and send it to an address. 
 You can also view the NFTs owned by your account.
 
+All credits go to https://github.com/viraja1
+
 ### Screenshots
 ![](screenshots/neo_nft_1.png)
 
@@ -65,8 +67,10 @@ You can also view the NFTs owned by your account.
    Copy the NFT contract address value, remove 0x from the start and then update the CONTRACT_HASH value in client/src/App.js:6
    
 8) Go back to the neo_nft_minter folder in a separate terminal tab to build the client app
-
    ```
+   cd neo_nft_minter
+   ```
+  
    cd client
    npm install
    npm start 
